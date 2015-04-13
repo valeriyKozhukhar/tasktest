@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Маркет Двери</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body>
+	<header>
+		<div class="w100">
+			<ul class="menu" id="topNavigation">
+				<li class="flag"><a href="#" id="iconFlagRU"></a></li>
+				<li class="flag"><a href="#" id="iconFlagUA"></a></li>
+				<li class="dropdownBox left" id="linkProfile">
+					<a href="#">Здравствуйте,  Дмитрий</a>
+					<ul class="dropdown"></ul>
+				</li>
+				<li><a href="#">О нас</a></li>
+				<li><a href="#">Замер</a></li>
+				<li class="dropdownBox">
+					<a href="">Оплата и доставка</a>
+					<ul class="dropdown">
+						<li>Гарантии</li>
+						<li>Акции</li>
+						<li>Отзывы</li>
+						<li>Как купить</li>
+						<li>Контакты</li>
+						<li>Установка</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="w100">
+			<div class="w25">
+				<div id="iconLogo"></div>
+				<div id="labelLogo">Самый большой<br> супермаркет дверей</div>
+			</div>
+			<div class="w45">
+				<div class="w50">
+					<ul class="phones">
+						<li><span class="highlight">(044)</span> 379-34-41</li>
+						<li><span class="highlight">(099)</span> 110-15-59</li>
+					</ul>
+				</div>
+				<div class="w50">
+					<ul class="phones">
+						<li><span class="highlight">(067)</span> 242-06-13</li>
+						<li><span class="highlight">(093)</span> 177-16-20</li>
+					</ul>
+				</div>
+				<div class="w100 iconMarker">г.Киев - м.Дорогожичи, ул.Берлинского 27</div>
+				<div class="w100 iconMarker">г.Киев - м.Житомирская, пр.Победы 121Д</div>
+				<button id="btnRequestCall"><span class="iconPhone"></span>Заказать звонок</button>
+			</div>
+			<div class="w25" id="basketBox">
+				<div class="w25" id="iconBasket"></div>
+				<div class="w75">
+					<ul id="basketInfo">
+						<li class="listHeader">Корзина</li>
+						<li>Товаров:  <span id="labelBasketItemsCount">0</span> шт.</li>
+						<li>На сумму: <span id="labelBasketTotalPrice">0</span> грн.</li>
+					</ul>
+					<button id="btnMakeOrder">Оформить</button>
+				</div>
+			</div>
+		</div>
+		<div class="w100">
+			<input type="search" placeholder="Поиск по каталогу" id="mainSearch" />
+		</div>
+	</header>
+		
+	<ul class="menu" id="mainNavigation">
+		<li class="active"><a href="#">Главная</a></li>
+		<li><a href="#">входные двери</a></li>
+		<li><a href="#">межкомнатные двери</a></li>
+		<li><a href="#">Фурнитура</a></li>
+		<li class="dropdownBox white">
+			<a href="">ламинат</a>
+			<ul class="dropdown">
+				<li>Паркетная доска</li>
+				<li>Производители</li>
+				<li>другие товары</li>
+				<li>услуги</li>
+			</ul>
+		</li>
+	</ul>
+	<div id="content">
+		<div class="tab" id="tabMain">
+			<div class="w25">
+				<ul class="enumList">
+					<li class="listHeader">тип</li>
+					<li>Броннированные</li><li>Шпонированные</li><li>Ламинированные.</li>
+				</ul>
+				<ul class="enumList">
+					<li class="listHeader">назначение</li>
+					<li>В квартиру</li><li>Для дома и дачи</li>
+				</ul>
+				<ul class="enumList">
+					<li class="listHeader">стиль</li>
+					<li>Классика</li><li>Модерн</li>
+				</ul>
+			</div>
+			<div class="w50 borderLeft">
+				<ul class="enumList customerList">
+					<li class="listHeader">производитель</li>
+					<li>Verto</li>
+					<li>Новый Стиль</li>
+					<li>Brama</li>
+					<li>Новый Мир</li>
+					<li>Галерея</li>
+					<li>Омис</li>
+					<li>Terminus</li>
+					<li>Реликт</li>
+					<li>Woodok</li>
+					<li>Istok</li>
+					<li>Green Plant</li>
+					<li>Sherwood</li>
+				</ul>
+				<ul class="enumList customerList">
+					<li class="listHeader"></li>
+					<li>BelwoodDoors</li>
+					<li>Массив Сосны</li>
+					<li>Халес (Украина)</li>
+					<li>Формет</li>
+					<li>Океан</li>
+					<li>Неман</li>
+					<li>Дубрава</li>
+					<li>НовгСтолДвор</li>
+					<li>Деревянные двери</li>
+					<li>Sklo + Glass</li>
+					<li>Массив МДФ</li>
+					<li>Portalini</li>
+				</ul>
+			</div>
+			<div class="w25">
+				<ul class="enumList">
+					<li class="listHeader">Страна производитель</li>
+					<li><span class="iconFlag ua"></span>Украина</li>
+					<li><span class="iconFlag bl"></span>Белоруссия</li>
+					<li><span class="iconFlag ru"></span>Россия</li>
+					<li><span class="iconFlag pl"></span>Польща</li>
+					<li><span class="iconFlag tr"></span>Турция</li>
+					<li><span class="iconFlag ch"></span>Китай</li>
+					<li><span class="iconFlag jp"></span>Япония</li>
+					<li><span class="iconFlag vg"></span>Венгрия</li>
+					<li><span class="iconFlag de"></span>Германия</li>
+					<li><span class="iconFlag au"></span>Австрия</li>
+					<li><span class="iconFlag fin"></span>Финляндия</li>
+					<li><span class="iconFlag en"></span>Англия</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="zepto.js"></script>
+	<script type="text/javascript">
+		$('#mainNavigation li').on('click', function ( ) {
+			$('#mainNavigation li').removeClass('active');
+			$(this).addClass('active');
+		});
+	</script>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:300,700,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'> -->
+</body>
+</html>
